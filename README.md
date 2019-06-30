@@ -33,7 +33,7 @@ The labels are packaged in **Annotations/hico-image-level.tar.gz**, you can use:
 
 to unzip them and get hico-training-set-image-level.json and hico-testing-set-image-level.json for train set and test set of HICO respectively. More details about the format are shown in [Dataset format](Annotations/README.md#image-level-partstate-for-hico).
 
-If you want to download HICO dataset, you can go to [this website](http://www-personal.umich.edu/~ywchao/hico/).
+The HICO dataset can be found here: [this website](http://www-personal.umich.edu/~ywchao/hico/).
 
 ### Results
 We provide our current state-of-the-art result file on HICO.
