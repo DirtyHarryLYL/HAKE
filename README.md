@@ -2,7 +2,7 @@
 
 More details can be found in the HAKE website http://hake-mvig.cn. 
 
-**The image-level part-state annotations on HICO dataset are avaiable! Code and models on HICO will be shared soon. Subsequently, instance-level part-state annotations on still images/videos and the corresponding code and models will be made public soon.**
+**The image-level part-state annotations on HICO dataset are avaiable! Code and models on HICO will be shared soon. Subsequently, instance-level part-state annotations on still images/videos and the corresponding code and models will be made public soon too.**
 
 Note that: image-level means that what Human-Object Interactions are included in an image, and the corrsponding task is the HOI recognition (image-level multi-label classification from [HICO](http://www-personal.umich.edu/~ywchao/hico/)). 
 Meanwhile, instance-level means that what HOIs are performed by a person, and the task is HOI detection (instance-level multi-label classification from [HICO-DET](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)).
