@@ -2,7 +2,9 @@
 
 **News: Our paper "PaStaNet: Toward Human Activity Knowledge Engine" is accepted in CVPR2020, which contains the image-level and instance-level human part state annotations and the corresponding models. We will release them soon. Besides, we will also release the code and data of our two related papers "Detailed 2D-3D Joint Representation for Human-Object Interaction" and  "Symmetry in Attribute-Object Compositions" (also accepted in CVPR2020).**
 
-More details can be found in the HAKE website http://hake-mvig.cn. 
+**Besides, we also plan to release a new human activity understanding system: "HAKE-Action", which includes the reproduced SOTA image/video activity recognition/detection models and the corresponding HAKE-enhanced models. The main action benchmarks includes: HICO, HICO-DET, V-COCO, AMbiguous-HOI(our new CVPR2020 benchmark), AVA, etc.**
+
+Human Activity Knowledge Engine (HAKE) aims at promoting the human activity/action understanding. As a large-scale knowledge base, HAKE is built upon existing activity datasets, and supplies human instance action labels and corresponding body part level atomic action labels (Part States). We enhance the visual feature by combining it with the linguistic feature from BERT-Base pretrained model, which carries enormous contextual information from large-scale word corpus. With the power of HAKE, our baseline methods have outperformed state-of-the-art approaches on several wide-used activity and Human-Object Interaction benchmarks. More details can be found in the HAKE website http://hake-mvig.cn. 
 
 **The image-level part-state annotations on HICO dataset are avaiable! Code and models on HICO will be shared soon. Subsequently, instance-level part-state annotations on still images/videos and the corresponding code and models will be made public soon too.**
 
