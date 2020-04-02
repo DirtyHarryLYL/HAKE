@@ -48,6 +48,9 @@ to unzip them and get hico-training-set-image-level.json for train set of HICO r
 
 The HICO dataset can be found here: [HICO](http://www-personal.umich.edu/~ywchao/hico/).
 
+### Models
+The corresponding models can be found [here](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action).
+
 ### Results
 We provide our current state-of-the-art result file on HICO.
 
@@ -82,7 +85,8 @@ More details about the format are shown in [Dataset format](Annotations/README.m
 
 The HICO-DET dataset can be found here: [HICO](http://www-personal.umich.edu/~ywchao/hico/).
 
-
+### Models
+The corresponding models can be found [here](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action).
 
 ## TODOS
 - [x] Image-level label results on HICO
