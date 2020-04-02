@@ -22,14 +22,6 @@ If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/1904.0653
         year={2020}
     }
 
-    @article{li2019hake,
-        title={HAKE: Human Activity Knowledge Engine},
-        author={Li, Yong-Lu and Xu, Liang and Huang, Xijie and Liu, Xinpeng and Ma, Ze and Chen, Mingyang and Wang, Shiyi and Fang, Hao-Shu and Lu, Cewu},
-        journal={arXiv preprint arXiv:1904.06539},
-        year={2019}
-    }
-
-
 ## HAKE-HICO (For Image-level HOI Recognition)
 
 We have released image-level part state annotations on [HICO](http://www-personal.umich.edu/~ywchao/hico/). 
