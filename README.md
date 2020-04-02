@@ -8,7 +8,6 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 
 Note that: image-level means that what Human-Object Interactions are included in an image, and the corrsponding task is the HOI recognition (image-level multi-label classification from [HICO](http://www-personal.umich.edu/~ywchao/hico/)). 
 Meanwhile, instance-level means that what HOIs are performed by a person, and the task is HOI detection (instance-level multi-label classification from [HICO-DET](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)).
-The finer-grained instance-level annotations will be released soon for better exploring HOI detection problem.
 
 
 If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/1904.06539):
@@ -56,14 +55,14 @@ After downloading above result file, you could use the following commands to eva
 4. run `eval_default_run`
 
 
-## HAKE-HICO-DET (For Instance-level HOI Recognition)
+## HAKE-HICO-DET (For Instance-level HOI Detection)
 
 We have released instance-level part-state annotation results on [HICO-DET](http://www-personal.umich.edu/~ywchao/hico/).
 
-We have labeled all the 38,118 images in train set and 9,658 images in test set of HICO-DET dataset.
+All the 38,118 images in train set and 9,658 images in test set of HICO-DET dataset are labled with human body part states.
 
 ### Dataset
-The labels are packaged in **Annotations/hico-det-instance-level.tar.gz**, you can use:
+The labels are packaged in **Annotations/hico-det-instance-level.tar.gz**, you could use:
 
     cd Annotations
     tar zxvf hico-det-instance-level.tar.gz
