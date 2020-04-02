@@ -4,7 +4,9 @@
 
 More details can be found in the HAKE website http://hake-mvig.cn. 
 
-**The image-level and instance-level part-state annotations on 50K images are all avaiable now! Our new larger version HAKE-Big (>120K images, activity and part state labels) will be relaesed soon.**
+**The image-level and instance-level part-state annotations on 50K images are all avaiable now! Meanwhile, the corresponding models are also released in our [HAKE-Action repo](https://github.com/DirtyHarryLYL/HAKE-Action).
+
+**Our new larger version HAKE-Big (>120K images, activity and part state labels) will be relaesed soon.**
 
 Note that: image-level means that what Human-Object Interactions are included in an image, and the corrsponding task is the HOI recognition (image-level multi-label classification from [HICO](http://www-personal.umich.edu/~ywchao/hico/)). 
 Meanwhile, instance-level means that what HOIs are performed by a person, and the task is HOI detection (instance-level multi-label classification from [HICO-DET](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)).
@@ -82,10 +84,11 @@ The HICO-DET dataset can be found here: [HICO](http://www-personal.umich.edu/~yw
 
 ## TODOS
 - [x] Image-level label results on HICO
-- [ ] Image-level code and models
+- [x] Image-level code and models
 - [x] Instance-level label results on HICO-DET
-- [ ] Instance-level code and models
-
+- [x] Instance-level code and models
+- [ ] HAKE-Large data and labels
+- [ ] HAKE-AVA data and labels
 
 
 
