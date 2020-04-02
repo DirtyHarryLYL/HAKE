@@ -15,6 +15,13 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 
 If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/1904.06539):
 
+    @inproceedings{li2020pastanet,
+        title={PaStaNet: Toward Human Activity Knowledge Engine},
+        author={Yong-Lu Li, Liang Xu, Xinpeng Liu, Xijie Huang, Yue Xu, Shiyi Wang, Hao-Shu Fang, Ze Ma, Mingyang Chen, Cewu Lu},
+        booktitle={CVPR},
+        year={2020}
+    }
+
     @article{li2019hake,
         title={HAKE: Human Activity Knowledge Engine},
         author={Li, Yong-Lu and Xu, Liang and Huang, Xijie and Liu, Xinpeng and Ma, Ze and Chen, Mingyang and Wang, Shiyi and Fang, Hao-Shu and Lu, Cewu},
