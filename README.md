@@ -1,5 +1,6 @@
 # HAKE: Human Activity Knowledge Engine
 
+This repo is mainly used to release the HAKE-Data.
 More details can be found in the HAKE website http://hake-mvig.cn. 
 
 **The image-level and instance-level part state annotations upon HICO and HICO-DET are avaiable! So do the code and models at [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action).**
@@ -8,7 +9,9 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 
 - The larger version which contains 118K+ images, activity and part state labels will be released soon.
 
-### Note that: image-level means that what Human-Object Interactions are included in an image, and the corrsponding task is the HOI recognition (image-level multi-label classification from [HICO](http://www-personal.umich.edu/~ywchao/hico/)). Meanwhile, instance-level means that what HOIs are performed by a person, and the task is HOI detection (instance-level multi-label classification from [HICO-DET](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)).
+#### Note that: 
+- Image-level means that what Human-Object Interactions are included in an image, and the corrsponding task is the HOI recognition (image-level multi-label classification from [HICO](http://www-personal.umich.edu/~ywchao/hico/)). 
+- Instance-level means that what HOIs are performed by a person, and the task is HOI detection (instance-level multi-label classification from [HICO-DET](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)).
 
 If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/1904.06539):
 
@@ -22,9 +25,11 @@ If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/1904.0653
 
 ## HAKE-HICO (For Image-level HOI Recognition)
 
-We have released image-level part-state annotation results on [HICO](http://www-personal.umich.edu/~ywchao/hico/). HOI recognition task can be modeled as a multi-label classification problem with 600 HOI categories. Given a still image, the model should tell the involved HOI categories in this image.
+We have released image-level part state annotations on [HICO](http://www-personal.umich.edu/~ywchao/hico/). 
+HOI recognition task can be modeled as a multi-label classification problem with 600 HOI categories. Given a still image, the model should tell the involved HOI categories in this image.
 
-We have labeled all the 38,116 images in train set of HICO dataset. For better understanding of HOI recognition task, you can refer to these works: [HICO](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf), [Pair-wise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf), [HAKE](https://arxiv.org/pdf/1904.06539.pdf).
+All the 38,116 images in train set of HICO dataset are annotated with finer human body part states. 
+For better understanding of HOI recognition task, you could refer to these works: [HICO](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf), [Pair-wise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf), [HAKE](https://arxiv.org/pdf/1904.06539.pdf).
 
 ### Dataset
 The labels are packaged in **Annotations/hico-image-level.tar.gz**, you can use:
@@ -57,17 +62,16 @@ After downloading above result file, you could use the following commands to eva
 
 ## HAKE-HICO-DET (For Instance-level HOI Recognition)
 
-We have released instance-level part-state annotation results on [HICO-DET](http://www-personal.umich.edu/~ywchao/hico/).
-
-We have labeled all the 38,118 images in train set of HICO-DET dataset.
+Instance-level part state annotations on [HICO-DET](http://www-personal.umich.edu/~ywchao/hico/) are also available.
 
 ### Dataset
-The labels are packaged in **Annotations/hico-det-instance-level.tar.gz**, you can use:
+The labels are packaged in **Annotations/hico-det-instance-level.tar.gz**, you could use:
 
     cd Annotations
     tar zxvf hico-det-instance-level.tar.gz
 
-to unzip them and get hico-det-training-set-instance-level.json for train set of HICO-DET respectively. More details about the format are shown in [Dataset format](Annotations/README.md).
+to unzip them and get hico-det-training-set-instance-level.json for train set of HICO-DET respectively. 
+More details about the format are shown in [Dataset format](Annotations/README.md).
 
 The HICO-DET dataset can be found here: [HICO](http://www-personal.umich.edu/~ywchao/hico/).
 
@@ -75,10 +79,11 @@ The HICO-DET dataset can be found here: [HICO](http://www-personal.umich.edu/~yw
 
 ## TODOS
 - [x] Image-level label results on HICO
-- [ ] Image-level code and models
+- [x] Image-level code and models
 - [x] Instance-level label results on HICO-DET
-- [ ] Instance-level code and models
-
+- [x] Instance-level code and models
+- [ ] HAKE-Large data
+- [ ] HAKE-AVA data and code (video-based)
 
 
 
