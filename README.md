@@ -2,7 +2,7 @@
 
 More details can be found in the HAKE website http://hake-mvig.cn. 
 
-**News: The image-level and instance-level part-state annotations on 50K images are all avaiable now! Meanwhile, the corresponding models are also released in our [HAKE-Action repo](https://github.com/DirtyHarryLYL/HAKE-Action).
+**News: The image-level and instance-level part-state annotations on 50K images are all avaiable now! Meanwhile, the corresponding models are also released in our [HAKE-Action repo](https://github.com/DirtyHarryLYL/HAKE-Action).**
 
 **Our new larger version HAKE-Big (>120K images, activity and part state labels) will be relaesed soon.**
 
