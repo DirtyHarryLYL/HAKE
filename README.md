@@ -1,5 +1,6 @@
 # HAKE: Human Activity Knowledge Engine
 
+This repo mainly contains the **HAKE-Data**, i.e. the images, human/object boxes, activity labels and corresponding human body part state labels.
 More details can be found in the HAKE website http://hake-mvig.cn. 
 
 **News: The image-level and instance-level part-state annotations on 50K images are all avaiable now! Meanwhile, the corresponding models are also released in our [HAKE-Action repo](https://github.com/DirtyHarryLYL/HAKE-Action).**
