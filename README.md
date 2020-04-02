@@ -60,11 +60,28 @@ After downloading above result file, you could use the following commands to eva
 4. run `eval_default_run`
 
 
+## HAKE-HICO-DET (For Instance-level HOI Recognition)
+
+We have released instance-level part-state annotation results on [HICO-DET](http://www-personal.umich.edu/~ywchao/hico/).
+
+We have labeled all the 38,118 images in train set and 9,658 images in test set of HICO-DET dataset.
+
+### Dataset
+The labels are packaged in **Annotations/hico-det-instance-level.tar.gz**, you can use:
+
+    cd Annotations
+    tar zxvf hico-det-instance-level.tar.gz
+
+to unzip them and get hico-det-training-set-instance-level.json and hico-det-testing-set-instance-level.json for train set and test set of HICO-DET respectively. More details about the format are shown in [Dataset format](Annotations/README.md).
+
+The HICO-DET dataset can be found here: [HICO](http://www-personal.umich.edu/~ywchao/hico/).
+
+
 
 ## TODOS
 - [x] Image-level label results on HICO
 - [ ] Image-level code and models
-- [ ] Instance-level label results on HICO-DET
+- [x] Instance-level label results on HICO-DET
 - [ ] Instance-level code and models
 
 
