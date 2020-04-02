@@ -7,7 +7,7 @@ The format of provided annotation files.
 <img src=../misc/hico_image_level_sample.png width="90%" align=center>
 
 ### Format Details
-Both of training_set and testing_set annotation results have the same format as follows:
+The annotation results have the same format as follows:
 
     {  
         ...
@@ -36,7 +36,7 @@ In JSON format, where key is the name of the image, and the values include:
 ## Instance-level PartState Annotation for HICO-DET
 
 ### Format Details
-Both of training\_set and testing\_set annotation results have the same format as follows:
+The annotation results have the same format as follows:
     
 ```
 ...
@@ -67,7 +67,7 @@ Both of training\_set and testing\_set annotation results have the same format a
    	}
    	...
    	],
- 	u'path_prefix': u'hico_20160224_det/images/test2015'
+ 	u'path_prefix': u'hico_20160224_det/images/train2015'
  }
  ...
 ```

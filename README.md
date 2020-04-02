@@ -1,25 +1,21 @@
 # HAKE: Human Activity Knowledge Engine
 
-This repo mainly contains the **HAKE-Data**, i.e. the images, human/object boxes, activity labels and corresponding human body part state labels.
+**News: We have opened a tiny repo: HOI learning list (https://github.com/DirtyHarryLYL/HOI-Learning-List). It includes most of the recent HOI-related papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everybody interested in HOI.**
+
+**1) Our paper "PaStaNet: Toward Human Activity Knowledge Engine" is accepted in CVPR2020, which contains the image-level and instance-level human part state annotations and the corresponding models. We will release them soon. Besides, we will also release the code and data of our two related papers "Detailed 2D-3D Joint Representation for Human-Object Interaction" and  "Symmetry and Group in Attribute-Object Compositions" (also accepted in CVPR2020).**
+
+**2) we plan to release a new human activity understanding system: "HAKE-Action", which includes the reproduced SOTA image/video activity recognition/detection models and the corresponding HAKE-enhanced models. The main action benchmarks include: HICO, HICO-DET, V-COCO, Ambiguous-HOI(our new CVPR2020 benchmark), AVA, etc.**
+
 More details can be found in the HAKE website http://hake-mvig.cn. 
 
-**News: The image-level and instance-level part-state annotations on 50K images are all avaiable now! Meanwhile, the corresponding models are also released in our [HAKE-Action repo](https://github.com/DirtyHarryLYL/HAKE-Action).**
-
-**Our new larger version HAKE-Big (>120K images, activity and part state labels) will be relaesed soon.**
-**We have opened a tiny repo: [HOI learning list](https://github.com/DirtyHarryLYL/HOI-Learning-List). It includes most of the recent HOI-related papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everybody interested in HOI.**
+**The image-level part-state annotations on HICO dataset are avaiable! Code and models on HICO will be shared soon.**
 
 Note that: image-level means that what Human-Object Interactions are included in an image, and the corrsponding task is the HOI recognition (image-level multi-label classification from [HICO](http://www-personal.umich.edu/~ywchao/hico/)). 
 Meanwhile, instance-level means that what HOIs are performed by a person, and the task is HOI detection (instance-level multi-label classification from [HICO-DET](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)).
+The finer-grained instance-level annotations will be released soon for better exploring HOI detection problem.
 
 
 If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/1904.06539):
-
-    @inproceedings{li2020pastanet,
-        title={PaStaNet: Toward Human Activity Knowledge Engine},
-        author={Yong-Lu Li, Liang Xu, Xinpeng Liu, Xijie Huang, Yue Xu, Shiyi Wang, Hao-Shu Fang, Ze Ma, Mingyang Chen, Cewu Lu},
-        booktitle={CVPR},
-        year={2020}
-    }
 
     @article{li2019hake,
         title={HAKE: Human Activity Knowledge Engine},
@@ -33,7 +29,7 @@ If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/1904.0653
 
 We have released image-level part-state annotation results on [HICO](http://www-personal.umich.edu/~ywchao/hico/). HOI recognition task can be modeled as a multi-label classification problem with 600 HOI categories. Given a still image, the model should tell the involved HOI categories in this image.
 
-We have labeled all the 38,116 images in train set and 9,658 images in test set of HICO dataset. For better understanding of HOI recognition task, you can refer to these works: [HICO](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf), [Pair-wise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf), [HAKE](https://arxiv.org/pdf/1904.06539.pdf).
+We have labeled all the 38,116 images in train set of HICO dataset. For better understanding of HOI recognition task, you can refer to these works: [HICO](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf), [Pair-wise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf), [HAKE](https://arxiv.org/pdf/1904.06539.pdf).
 
 ### Dataset
 The labels are packaged in **Annotations/hico-image-level.tar.gz**, you can use:
@@ -41,7 +37,7 @@ The labels are packaged in **Annotations/hico-image-level.tar.gz**, you can use:
     cd Annotations
     tar zxvf hico-image-level.tar.gz
 
-to unzip them and get hico-training-set-image-level.json and hico-testing-set-image-level.json for train set and test set of HICO respectively. More details about the format are shown in [Dataset format](Annotations/README.md#image-level-partstate-for-hico).
+to unzip them and get hico-training-set-image-level.json for train set of HICO respectively. More details about the format are shown in [Dataset format](Annotations/README.md#image-level-partstate-for-hico).
 
 The HICO dataset can be found here: [HICO](http://www-personal.umich.edu/~ywchao/hico/).
 
@@ -64,19 +60,19 @@ After downloading above result file, you could use the following commands to eva
 4. run `eval_default_run`
 
 
-## HAKE-HICO-DET (For Instance-level HOI Detection)
+## HAKE-HICO-DET (For Instance-level HOI Recognition)
 
 We have released instance-level part-state annotation results on [HICO-DET](http://www-personal.umich.edu/~ywchao/hico/).
 
-All the 38,118 images in train set and 9,658 images in test set of HICO-DET dataset are labled with human body part states.
+We have labeled all the 38,118 images in train set of HICO-DET dataset.
 
 ### Dataset
-The labels are packaged in **Annotations/hico-det-instance-level.tar.gz**, you could use:
+The labels are packaged in **Annotations/hico-det-instance-level.tar.gz**, you can use:
 
     cd Annotations
     tar zxvf hico-det-instance-level.tar.gz
 
-to unzip them and get hico-det-training-set-instance-level.json and hico-det-testing-set-instance-level.json for train set and test set of HICO-DET respectively. More details about the format are shown in [Dataset format](Annotations/README.md).
+to unzip them and get hico-det-training-set-instance-level.json for train set of HICO-DET respectively. More details about the format are shown in [Dataset format](Annotations/README.md).
 
 The HICO-DET dataset can be found here: [HICO](http://www-personal.umich.edu/~ywchao/hico/).
 
@@ -84,11 +80,10 @@ The HICO-DET dataset can be found here: [HICO](http://www-personal.umich.edu/~yw
 
 ## TODOS
 - [x] Image-level label results on HICO
-- [x] Image-level code and models
+- [ ] Image-level code and models
 - [x] Instance-level label results on HICO-DET
-- [x] Instance-level code and models
-- [ ] HAKE-Large data and labels
-- [ ] HAKE-AVA data and labels
+- [ ] Instance-level code and models
+
 
 
 
