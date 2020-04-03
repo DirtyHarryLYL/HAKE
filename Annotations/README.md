@@ -1,7 +1,7 @@
 # Annotation Format
 The format of provided annotation files.
 
-## Image-level PartState Annotation for HICO
+## Image-level Part State Annotations for HICO
 
 ### Annotation Diagram
 <img src=../misc/hico_image_level_sample.png width="90%" align=center>
@@ -33,7 +33,9 @@ In JSON format, where key is the name of the image, and the values include:
 - parts_list: Part-State binary labels of length 10, where 1 indicates that the corresponding human-part is active in the image. The human-part setting is same as [Pair-wise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf). The order is Right\_foot, Right\_leg, Left\_leg, Left\_foot, Hip, Head, Right\_hand, Right\_arm, Left\_arm, Left\_hand. You can refer to [this image](../misc/human_part_definition.png) for visualization.
 - foot_list, leg_list, arm_list, hand_list, hip_list, head_list: Part-State labels of 6 combined human-parts(merge left and right in foot, leg, arm, hand by **OR** operation). They are represented in one-hot way, and the value of last index is 1 means that this human-part is inactive in this image. Please refer to our [Part-State setting](../Config/Part_State_76.txt) for more details.
 
-## Instance-level PartState Annotation for HICO-DET
+## Instance-level Part State Annotations for HICO-DET
+
+Different with image-level, instance-level part states are designed for each active person. That is, each GT human instance has body part state labels according to the actions.
 
 ### Format Details
 The annotation results have the same format as follows:
