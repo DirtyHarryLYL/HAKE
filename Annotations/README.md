@@ -80,7 +80,15 @@ In JSON format, where key is the name of the image, and the values include:
 - hoi_id: Image-level HOI labels(same setting as [HICO](https://drive.google.com/file/d/1ipvRTUF2zpOlHHqzbEb29iwscizoM1CK/view), [txt format](../Config/hico_hoi_list.txt))
 
 
+## About the part-state setting
 
+We adopt different part-state settings for image-level, instance-level tasks. You can refer to the following figure for visualization.
 
+<img src=../misc/partstates.png width="90%" align=center>
 
+- The image-level part-states list is provided in [Part\_State\_55.txt](../Config/Part_State_55.txt).
+
+- The instance-level part-states list is provided in [Part\_State\_76.txt](../Config/Part_State_76.txt). You can convert **76** to **55** by [this dictionary](../misc/76to55.json).
+
+- All part-states lists will be provided later.
 
