@@ -9,7 +9,7 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 
 - Paper is [here](https://arxiv.org/abs/2004.00945).
 
-- We also build a tiny repo: HOI learning list (https://github.com/DirtyHarryLYL/HOI-Learning-List). It includes most of the recent HOI-related papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everybody interested in HOI.
+- We also build a tiny repo: [HOI learning list](https://github.com/DirtyHarryLYL/HOI-Learning-List). It includes most of the recent HOI-related papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everybody interested in HOI.
 
 #### Note that: 
 - Image-level means that what Human-Object Interactions are included in an image, and the corrsponding task is the HOI recognition (image-level multi-label classification from [HICO](http://www-personal.umich.edu/~ywchao/hico/)). 
