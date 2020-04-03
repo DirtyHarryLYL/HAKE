@@ -1,13 +1,15 @@
 # HAKE: Human Activity Knowledge Engine
 
 This repo is mainly used to release the HAKE-Data.
-More details can be found in the HAKE website http://hake-mvig.cn. Paper is [here](https://arxiv.org/abs/2004.00945).
+More details can be found in the HAKE website http://hake-mvig.cn.
 
 **The image-level and instance-level part state annotations upon HICO and HICO-DET are avaiable! So do the code and models at [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action).**
 
 - We have also opened a tiny repo: HOI learning list (https://github.com/DirtyHarryLYL/HOI-Learning-List). It includes most of the recent HOI-related papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everybody interested in HOI.
 
 - The larger version which contains 118K+ images, activity and part state labels will be released soon.
+
+- Paper is [here](https://arxiv.org/abs/2004.00945).
 
 #### Note that: 
 - Image-level means that what Human-Object Interactions are included in an image, and the corrsponding task is the HOI recognition (image-level multi-label classification from [HICO](http://www-personal.umich.edu/~ywchao/hico/)). 
