@@ -1,10 +1,10 @@
 # Annotation Format
 The format of provided annotation files.
 
-## Image-level Part State Annotations for HICO
-
-### Annotation Diagram
+## Annotation Diagram
 <img src=../misc/hico_image_level_sample.png width="90%" align=center>
+
+## Image-level Part State Annotations for HICO
 
 ### Format Details
 The annotation results have the same format as follows:
