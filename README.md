@@ -1,7 +1,7 @@
 # HAKE: Human Activity Knowledge Engine
 
 This repo is mainly used to release the HAKE-Data.
-More details can be found in the HAKE website http://hake-mvig.cn. 
+More details can be found in the HAKE website http://hake-mvig.cn. Paper is [here](https://arxiv.org/abs/2004.00945).
 
 **The image-level and instance-level part state annotations upon HICO and HICO-DET are avaiable! So do the code and models at [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action).**
 
