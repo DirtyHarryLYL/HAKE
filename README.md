@@ -18,10 +18,10 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/1904.06539):
 
     @article{li2020pastanet,
-    title={PaStaNet: Toward Human Activity Knowledge Engine},
-    author={Li, Yong-Lu and Xu, Liang and Liu, Xinpeng and Huang, Xijie and Xu, Yue and Wang, Shiyi and Fang, Hao-shu and Ma, Ze and Chen, Mingyang and Lu, Cewu},
-    journal={arXiv preprint arXiv:2004.00945},
-    year={2020}
+        title={PaStaNet: Toward Human Activity Knowledge Engine},
+        author={Li, Yong-Lu and Xu, Liang and Liu, Xinpeng and Huang, Xijie and Xu, Yue and Wang, Shiyi and Fang, Hao-shu and Ma, Ze and Chen, Mingyang and Lu, Cewu},
+        journal={arXiv preprint arXiv:2004.00945},
+        year={2020}
     }
 
 ## HAKE-HICO (For Image-level HOI Recognition)
