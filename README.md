@@ -64,7 +64,7 @@ After downloading above result file, you could use the following commands to eva
 4. run `eval_default_run`
 
 
-## HAKE-HICO-DET (For Instance-level HOI Recognition)
+## HAKE-HICO-DET (For Instance-level HOI Detection)
 
 Instance-level part state annotations on [HICO-DET](http://www-personal.umich.edu/~ywchao/hico/) are also available.
 
