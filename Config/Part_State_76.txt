@@ -50,7 +50,7 @@ hand: wash
 hand: wash with something
 hand: hold in both hands
 hand: lift
-hand: raise
+hand: raise(over head)
 hand: feed
 hand: cut with something
 hand: catch with something
