@@ -5,7 +5,7 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 
 **The image-level and instance-level part state annotations upon HICO and HICO-DET are avaiable! So do the code and models at [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action).**
 
-- The larger version which contains 118K+ images, activity and part state labels will be released soon.
+- The larger version which contains 118K+ images, activity and part state labels is released!(2020.6.16)
 
 - Paper is [here](https://arxiv.org/abs/2004.00945).
 
