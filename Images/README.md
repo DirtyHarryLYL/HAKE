@@ -7,7 +7,8 @@ We collect images from:
 - Openimages: [https://storage.googleapis.com/openimages/web/index.html](https://storage.googleapis.com/openimages/web/index.html)
 - HCVRD: [https://arxiv.org/abs/1705.09892](https://arxiv.org/abs/1705.09892)
 - PIC: [http://picdataset.com/challenge/index/](http://picdataset.com/challenge/index/)
-
+- hake\_images\_20190730: [https://drive.google.com/open?id=18R\_3Oz7zO1knEjagY6sfUkQ1\_6wZf0Ei](https://drive.google.com/open?id=18R_3Oz7zO1knEjagY6sfUkQ1_6wZf0Ei)
+- hake\_images\_20200614: [https://drive.google.com/open?id=14K\_4FfjviJNDVLJdGM96W2ZLN55dDb2-](https://drive.google.com/open?id=14K_4FfjviJNDVLJdGM96W2ZLN55dDb2-)
 
 ## How to Download images
 
