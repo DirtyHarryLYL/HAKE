@@ -96,10 +96,9 @@ The labels are packaged in **Annotations/hake\_large\_annotation.tar.gz**, you c
 to unzip them and get hake\_large\_annotation.json for train set of HAKE-Large respectively. 
 More details about the format are shown in [Dataset format](Annotations/README.md).
 
+### Extra 40 verb categories
 
-
-## HAKE-AVA
-The image set and labels are open sourced and you can download them from [Google Drive](https://drive.google.com/open?id=14K_4FfjviJNDVLJdGM96W2ZLN55dDb2-).
+We also provided the image set and part-state labels of the extra 40 verb categories. You can download them from [Google Drive](https://drive.google.com/open?id=14K_4FfjviJNDVLJdGM96W2ZLN55dDb2-). The verb\_list, part-state\_list is attached in the zip file. For these 40 verb categories, objects are limited to coco80 categories but object bounding boxes and categories are optional (e.g. `dance` has no interactive objects).
 
 
 ## TODOS
@@ -108,7 +107,7 @@ The image set and labels are open sourced and you can download them from [Google
 - [x] Instance-level label results on HICO-DET
 - [x] Instance-level code and models
 - [x] HAKE-Large data
-- [x] HAKE-AVA data and code (video-based)
+- [ ] HAKE-AVA data and code (video-based)
 
 
 
