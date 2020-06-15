@@ -55,10 +55,8 @@ We provide our current state-of-the-art result file on HICO.
 | --- | ------ | ------ | --- | --- | ---|
 | Pairwise-Part+HAKE-ALL | 25.40 | 32.48 | 33.71 | 47.09 | [hico\_result\_pairwise\_hake\_all.csv](https://drive.google.com/file/d/1nWi44-UaMB0cnkdGoIN8dGi3cwsRcnVb/view?usp=sharing) |
 
-
 ### Evaluate
 After downloading above result file, you could use the following commands to evaluate: 
-
 
 1. Download evaluation [code](https://drive.google.com/drive/folders/1mvXAtCe0Yc7JUQXCu3D_wpWt7r048lGc?usp=sharing) here (It is a modification of [this benchmark](https://github.com/ywchao/hico_benchmark))
 2. Copy the result file to #/data/test-result.csv, where # means the folder of the evaluation code
@@ -84,13 +82,33 @@ The HICO-DET dataset can be found here: [HICO-DET](http://www-personal.umich.edu
 ### Models
 The corresponding models can be found [here](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action).
 
+## HAKE-Large (For Instance-level HOI Detection)
+
+Instance-level part state annotations on HAKE-Large are also available now!
+
+
+### Dataset
+The labels are packaged in **Annotations/hake\_large\_annotation.tar.gz**, you could use:
+
+    cd Annotations
+    tar zxvf hake_large_annotation.tar.gz
+
+to unzip them and get hake\_large\_annotation.json for train set of HAKE-Large respectively. 
+More details about the format are shown in [Dataset format](Annotations/README.md).
+
+
+
+## HAKE-AVA
+The image set and labels are open sourced and you can download them from [Google Drive](https://drive.google.com/open?id=14K_4FfjviJNDVLJdGM96W2ZLN55dDb2-).
+
+
 ## TODOS
 - [x] Image-level label results on HICO
 - [x] Image-level code and models
 - [x] Instance-level label results on HICO-DET
 - [x] Instance-level code and models
-- [ ] HAKE-Large data
-- [ ] HAKE-AVA data and code (video-based)
+- [x] HAKE-Large data
+- [x] HAKE-AVA data and code (video-based)
 
 
 

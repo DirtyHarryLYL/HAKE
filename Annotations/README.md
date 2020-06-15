@@ -80,6 +80,12 @@ In JSON format, where key is the name of the image, and the values include:
 - hoi_id: Image-level HOI labels(same setting as [HICO](https://drive.google.com/file/d/1ipvRTUF2zpOlHHqzbEb29iwscizoM1CK/view), [txt format](../Config/hico_hoi_list.txt))
 
 
+## HAKE-Large Part State Annotations
+
+### Format Details
+The annotation results share the same format with Instance-level Part State Annotations for HICO-DET.
+
+
 ## About the part-state setting
 
 We adopt different part-state settings for image-level, instance-level tasks. You can refer to the following figure for visualization.
