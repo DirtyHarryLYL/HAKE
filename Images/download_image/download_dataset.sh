@@ -68,17 +68,3 @@ echo "openimages(part) Dataset Downloaded!\n"
 # ---------------pic Dataset-------------------------
 
 # Please download pic dataset from http://picdataset.com/challenge/index/
-
-
-# ---------------Collected Dataset-------------------------
-python ../download_image/Download_data.py 18R_3Oz7zO1knEjagY6sfUkQ1_6wZf0Ei ./collected_images.tar.gz
-tar -xvzf collected_images.tar.gz -C ./
-rm collected_images.tar.gz
-mv collected_images/* ..
-rm -rf collected_images
-
-
-# ---------------HAKE AVA Dataset-------------------------
-python ../download_image/Download_data.py 14K_4FfjviJNDVLJdGM96W2ZLN55dDb2- ./hake_images_20200614.tar.gz
-tar -xvzf hake_images_20200614.tar.gz -C ./
-rm hake_images_20200614.tar.gz
