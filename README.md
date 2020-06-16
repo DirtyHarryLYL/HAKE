@@ -5,7 +5,7 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 
 #### **News**: (2020.6.16) Our larger version [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-hoi-detection) (>120K images, activity and part state labels) is released!
 
-**The image-level and instance-level part state annotations upon HICO and HICO-DET are avaiable! So do the code and models at [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action).**
+**The image-level and instance-level part state annotations upon HICO and HICO-DET are available! So do the code and models at [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action).**
 
 - Paper is [here](https://arxiv.org/abs/2004.00945).
 
@@ -97,7 +97,7 @@ to unzip them and get hake\_large\_annotation.json for train set of HAKE-Large r
 More details about the format are shown in [Dataset format](Annotations/README.md).
 
 ### Images
-you could download the corresponding images following [this](https://github.com/DirtyHarryLYL/HAKE/tree/master/Images#download-images-for-hake).
+You could download the corresponding images following [this](https://github.com/DirtyHarryLYL/HAKE/tree/master/Images#download-images-for-hake).
 
 ### Extra 40 verb categories
 

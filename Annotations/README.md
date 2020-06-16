@@ -96,5 +96,5 @@ We adopt different part-state settings for image-level, instance-level tasks. Yo
 
 - The instance-level part-states list is provided in [Part\_State\_76.txt](../Config/Part_State_76.txt). You can convert **76** to **55** by [this dictionary](../misc/76to55.json).
 
-- All part-states lists will be provided later.
+- For the extra 40 verb categories, the length of part states list is extended to 93 and the list can be found in [Part\_State\_93.txt](../Config/Part_State_93.txt).
 
