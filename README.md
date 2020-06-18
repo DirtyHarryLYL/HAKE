@@ -1,6 +1,6 @@
 # HAKE: Human Activity Knowledge Engine
 
-This repo is mainly used to release the HAKE-Data.
+This repo is mainly used to release the Data of HAKE.
 More details can be found in the HAKE website http://hake-mvig.cn.
 
 #### **News**: (2020.6.16) Our larger version [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-hoi-detection) (>120K images, activity and part state labels) is released!
@@ -9,7 +9,7 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 
 - Paper is [here](https://arxiv.org/abs/2004.00945).
 
-- Code and model ([HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)): [Image-level](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action) and [Instance-level](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action).
+- Corresponding Code and model ([HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)): [Image-level](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action) and [Instance-level](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action).
 
 - We also build a tiny repo: [HOI learning list](https://github.com/DirtyHarryLYL/HOI-Learning-List). It includes most of the recent HOI-related papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everybody interested in HOI.
 
@@ -44,8 +44,8 @@ to unzip them and get hico-training-set-image-level.json for train set of HICO r
 
 The HICO dataset can be found here: [HICO](http://www-personal.umich.edu/~ywchao/hico/).
 
-### Models
-The corresponding models can be found [here](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action).
+### Code and Models
+The corresponding code and models can be found [here](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action).
 
 ### Results
 We provide our current state-of-the-art result file on HICO.
@@ -79,8 +79,8 @@ More details about the format are shown in [Dataset format](Annotations/README.m
 
 The HICO-DET dataset can be found here: [HICO-DET](http://www-personal.umich.edu/~ywchao/hico/).
 
-### Models
-The corresponding models can be found [here](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action).
+### Code and Models
+The corresponding code and models can be found [here](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action).
 
 ## HAKE-Large (For Instance-level HOI Detection)
 
