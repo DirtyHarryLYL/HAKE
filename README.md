@@ -3,6 +3,12 @@
 This repo is mainly used to release the Data of HAKE.
 More details can be found in the HAKE website http://hake-mvig.cn.
 
+# HAKE project:
+- HAKE-Action: SOTA action understandind methods and the corresponding HAKE-enhanced version ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)).
+- HAKE-3D: 3D human and object representation for action understanding ([DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)).
+- HAKE-Object: leverages the object knowledge to advance the action understanding ([SymNet](https://github.com/DirtyHarryLYL/SymNet)).
+- [HOI Learning List](https://github.com/DirtyHarryLYL/HOI-Learning-List): a list of recent HOI related researches.
+
 #### **News**: (2020.6.16) Our larger version [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-hoi-detection) (>120K images, activity and part state labels) is released!
 
 **The image-level and instance-level part state annotations upon HICO and HICO-DET are available! So do the code and models at [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action).**
