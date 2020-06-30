@@ -1,6 +1,5 @@
 # HAKE: Human Activity Knowledge Engine
 
-This repo is mainly used to release the Data of HAKE.
 More details can be found in the HAKE website http://hake-mvig.cn.
 
 # HAKE project:
