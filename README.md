@@ -6,17 +6,15 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 - HAKE-Action: SOTA action understandind methods and the corresponding HAKE-enhanced versions ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)).
 - HAKE-3D: 3D human and object representation for action understanding ([DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)).
 - HAKE-Object: leverages the object knowledge to advance the action understanding ([SymNet](https://github.com/DirtyHarryLYL/SymNet)).
-- [HOI Learning List](https://github.com/DirtyHarryLYL/HOI-Learning-List): a list of recent HOI related researches.
+- [HOI Learning List](https://github.com/DirtyHarryLYL/HOI-Learning-List): It includes most of the recent HOI-related papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everybody interested in HOI.
 
 #### **News**: (2020.6.16) Our larger version [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-hoi-detection) (>120K images, activity and part state labels) is released!
 
-**The image-level and instance-level part state annotations upon HICO and HICO-DET are available! So do the code and models at [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action).**
+**The image-level and instance-level part state annotations upon HICO and HICO-DET are available!**
 
-- Paper is [here](https://arxiv.org/abs/2004.00945).
+- Paper is here: [PaStaNet](https://arxiv.org/abs/2004.00945).
 
 - Corresponding Code and model ([HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)): [Image-level](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action) and [Instance-level](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action).
-
-- We also build a tiny repo: [HOI learning list](https://github.com/DirtyHarryLYL/HOI-Learning-List). It includes most of the recent HOI-related papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everybody interested in HOI.
 
 #### Note that: 
 - Image-level means that what Human-Object Interactions are included in an image, and the corrsponding task is the HOI recognition (image-level multi-label classification from [HICO](http://www-personal.umich.edu/~ywchao/hico/)). 
