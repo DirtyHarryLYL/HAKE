@@ -3,7 +3,7 @@
 More details can be found in the HAKE website http://hake-mvig.cn.
 
 # HAKE project:
-- HAKE-Action: SOTA action understandind methods and the corresponding HAKE-enhanced version ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)).
+- HAKE-Action: SOTA action understandind methods and the corresponding HAKE-enhanced versions ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)).
 - HAKE-3D: 3D human and object representation for action understanding ([DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)).
 - HAKE-Object: leverages the object knowledge to advance the action understanding ([SymNet](https://github.com/DirtyHarryLYL/SymNet)).
 - [HOI Learning List](https://github.com/DirtyHarryLYL/HOI-Learning-List): a list of recent HOI related researches.
