@@ -8,7 +8,7 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 - HAKE-Object: leverages object knowledge to advance action understanding ([SymNet](https://github.com/DirtyHarryLYL/SymNet)).
 - [HOI Learning List](https://github.com/DirtyHarryLYL/HOI-Learning-List): includes most of the recent HOI (Human-Object Interaction) related papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everybody interested in HOI.
 
-#### **News**: (2020.6.16) Our larger version [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-hoi-detection) (>120K images, activity and part state labels) is released!
+#### **News**: (2020.6.16) Our larger version [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-hoi-detection) (>122K images, activity and part state labels) is released!
 
 **The image-level and instance-level part state annotations upon HICO and HICO-DET are available!**
 
