@@ -114,6 +114,6 @@ We also provided the image set and part-state labels of the extra 40 verb catego
 - [x] Instance-level code and models
 - [x] HAKE-Large data
 - [ ] HAKE-AVA data and code (video-based)
-
+- [ ] HAKE-Action in PYTorch
 
 
