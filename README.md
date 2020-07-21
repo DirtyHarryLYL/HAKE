@@ -35,7 +35,7 @@ We have released image-level part state annotations on [HICO](http://www-persona
 HOI recognition task can be modeled as a multi-label classification problem with 600 HOI categories. Given a still image, the model should tell the involved HOI categories in this image.
 
 All the 38,116 images in train set of HICO dataset are annotated with finer human body part states. 
-For better understanding of HOI recognition task, you could refer to these works: [HICO](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf), [Pair-wise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf), [HAKE](https://arxiv.org/pdf/1904.06539.pdf).
+For better understanding of HOI recognition task, you could refer to these works: [HICO](http://www-personal.umich.edu/~ywchao/publications/chao_iccv2015.pdf), [Pair-wise](http://openaccess.thecvf.com/content_ECCV_2018/papers/Haoshu_Fang_Pairwise_Body-Part_Attention_ECCV_2018_paper.pdf), [HAKE](https://arxiv.org/abs/2004.00945.pdf).
 
 ### Dataset
 The labels are packaged in **Annotations/hico-image-level.tar.gz**, you can use:
