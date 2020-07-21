@@ -20,7 +20,7 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 - Image-level means that what Human-Object Interactions are included in an image, and the corrsponding task is the HOI recognition (image-level multi-label classification from [HICO](http://www-personal.umich.edu/~ywchao/hico/)). 
 - Instance-level means that what HOIs are performed by a person, and the task is HOI detection (instance-level multi-label detection from [HICO-DET](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)).
 
-If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/1904.06539):
+If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/2004.00945):
 
     @inproceedings{li2020pastanet,
         title={PaStaNet: Toward Human Activity Knowledge Engine},
