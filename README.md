@@ -3,10 +3,11 @@
 More details can be found in the HAKE website http://hake-mvig.cn.
 
 # HAKE project:
-- HAKE-Action: SOTA action understandind methods and the corresponding HAKE-enhanced versions ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)).
-- HAKE-3D: 3D human-object representation for action understanding ([DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)).
-- HAKE-Object: leverages object knowledge to advance action understanding ([SymNet](https://github.com/DirtyHarryLYL/SymNet)).
-- [HOI Learning List](https://github.com/DirtyHarryLYL/HOI-Learning-List): includes most of the recent HOI (Human-Object Interaction) related papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everybody interested in HOI.
+- **HAKE-A2V**: (coming soon) Activity2Vec, a general activity feature extractor based on HAKE data, converts a human (box) to a fixed-size vector and action scores.
+- **HAKE-Action**: SOTA action understandind methods and the corresponding HAKE-enhanced versions ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)).
+- **HAKE-3D**: 3D human-object representation for action understanding ([DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)).
+- **HAKE-Object**: leverages object knowledge to advance action understanding ([SymNet](https://github.com/DirtyHarryLYL/SymNet)).
+- [**HOI Learning List**](https://github.com/DirtyHarryLYL/HOI-Learning-List): includes most of the recent HOI (Human-Object Interaction) related papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everybody interested in HOI.
 
 #### **News**: (2020.6.16) Our larger version [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-hoi-detection) (>122K images, activity and part state labels) is released!
 
@@ -113,6 +114,7 @@ We also provided the image set and part-state labels of the extra 40 verb catego
 - [x] Instance-level label results on HICO-DET
 - [x] Instance-level code and models
 - [x] HAKE-Large data
+- [ ] HAKE-A2V, pipeline, model
 - [ ] HAKE-AVA data and code (video-based)
 - [ ] HAKE-Action in PYTorch
 
