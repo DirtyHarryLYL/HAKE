@@ -3,7 +3,7 @@
 More details can be found in the HAKE website http://hake-mvig.cn.
 
 # HAKE project:
-- **HAKE-A2V**: (coming soon) Activity2Vec, a general activity feature extractor based on HAKE data, converts a human (box) to a fixed-size vector and action scores.
+- **HAKE-A2V**: (coming soon) Activity2Vec, a general activity feature extractor based on HAKE data, converts a human (box) to a fixed-size vector, PaSta and action scores.
 - **HAKE-Action**: SOTA action understandind methods and the corresponding HAKE-enhanced versions ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)).
 - **HAKE-3D**: 3D human-object representation for action understanding ([DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)).
 - **HAKE-Object**: leverages object knowledge to advance action understanding ([SymNet](https://github.com/DirtyHarryLYL/SymNet)).
