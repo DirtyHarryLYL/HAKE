@@ -7,7 +7,7 @@ More details can be found in the HAKE website http://hake-mvig.cn.
 - **HAKE-A2V**: (coming soon) Activity2Vec, a general activity feature extractor based on HAKE data, converts a human (box) to a fixed-size vector, PaSta and action scores.
 - **[HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)**: SOTA action understanding methods and the corresponding HAKE-enhanced versions ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network)).
 - **HAKE-3D**: 3D human-object representation for action understanding ([DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)).
-- **HAKE-Object**: to leverage object knowledge to advance action understanding ([SymNet](https://github.com/DirtyHarryLYL/SymNet)).
+- **HAKE-Object**: object knowledge learner to advance action understanding ([SymNet](https://github.com/DirtyHarryLYL/SymNet)).
 - [**HOI Learning List**](https://github.com/DirtyHarryLYL/HOI-Learning-List): a list of recent HOI (Human-Object Interaction) papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everyone interested in HOI.
 
 #### **News**: (2020.6.16) Our larger version [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-hoi-detection) (>122K images, activity and part state labels) and [Extra-40-verbs](https://github.com/DirtyHarryLYL/HAKE#extra-40-verb-categories) (40 new actions) are released!
