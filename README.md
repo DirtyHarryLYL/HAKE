@@ -118,5 +118,4 @@ We also provided the image set and part-state labels of the extra 40 verb catego
 - [ ] HAKE-A2V, pipeline, model
 - [ ] HAKE-AVA data and code (video-based)
 - [ ] HAKE-Action in PYTorch
-
-
+- [ ] New Benchmark
