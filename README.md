@@ -60,7 +60,7 @@ We provide our current state-of-the-art result file on HICO.
 | --- | ------ | ------ | --- | --- | ---|
 | Pairwise-Part+HAKE-ALL | 25.40 | 32.48 | 33.71 | 47.09 | [hico\_result\_pairwise\_hake\_all.csv](https://drive.google.com/file/d/1nWi44-UaMB0cnkdGoIN8dGi3cwsRcnVb/view?usp=sharing) |
 
-### Evaluate
+### Evaluation
 After downloading above result file, you could use the following commands to evaluate: 
 
 1. Download evaluation [code](https://drive.google.com/drive/folders/1mvXAtCe0Yc7JUQXCu3D_wpWt7r048lGc?usp=sharing) here (It is a modification of [this benchmark](https://github.com/ywchao/hico_benchmark))
