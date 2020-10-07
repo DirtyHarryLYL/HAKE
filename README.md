@@ -29,6 +29,13 @@ If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/2004.0094
         author={Li, Yong-Lu and Xu, Liang and Liu, Xinpeng and Huang, Xijie and Xu, Yue and Wang, Shiyi and Fang, Hao-Shu and Ma, Ze and Chen, Mingyang and Lu, Cewu},
         booktitle={CVPR},
         year={2020}
+        
+    @inproceedings{lu2018beyond,
+        title={Beyond holistic object recognition: Enriching image understanding with part states},
+        author={Lu, Cewu and Su, Hao and Li, Yonglu and Lu, Yongyi and Yi, Li and Tang, Chi-Keung and Guibas, Leonidas J},
+        booktitle={CVPR},
+        year={2018}
+}
     }
 
 ## HAKE-HICO (For Image-level HOI Recognition)
