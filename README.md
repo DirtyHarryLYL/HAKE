@@ -35,8 +35,6 @@ If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/2004.0094
         author={Lu, Cewu and Su, Hao and Li, Yonglu and Lu, Yongyi and Yi, Li and Tang, Chi-Keung and Guibas, Leonidas J},
         booktitle={CVPR},
         year={2018}
-}
-    }
 
 ## HAKE-HICO (For Image-level HOI Recognition)
 
