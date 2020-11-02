@@ -122,7 +122,7 @@ We also provided the image set and part-state labels of the extra 40 verb catego
 - [x] Instance-level label results on HICO-DET
 - [x] Instance-level code and models
 - [x] HAKE-Large data
-- [ ] HAKE-A2V, pipeline, model
+- [x] HAKE-A2V, pipeline, model
 - [ ] HAKE-AVA data and code (video-based)
 - [ ] HAKE-Action in PYTorch
 - [ ] New Benchmark
