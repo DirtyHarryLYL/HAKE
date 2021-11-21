@@ -1,6 +1,6 @@
 # HAKE: Human Activity Knowledge Engine
 
-More details please refer to HAKE website http://hake-mvig.cn.
+For more details please refer to HAKE website http://hake-mvig.cn.
 
 # HAKE project:
 - **HAKE-Image** (CVPR'18/20): [HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE#hake-hico-for-image-level-hoi-recognition), [HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE#hake-hico-det-for-instance-level-hoi-detection), [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-action-understanding-pre-training), [Extra-40-verbs](https://github.com/DirtyHarryLYL/HAKE#extra-40-verb-categories).
