@@ -128,6 +128,10 @@ You could download the corresponding images following [this](https://github.com/
 We also provided the image set and part-state labels of the extra 40 verb categories (includes both HOI and human-only actions). You can download them from [Google Drive](https://drive.google.com/open?id=14K_4FfjviJNDVLJdGM96W2ZLN55dDb2-). The verb\_list, part-state\_list is attached in the zip file. For these 40 verb categories, objects are also from coco80 categories but object bounding boxes and categories are optional (e.g. `dance` has no interactive objects).
 
 
+## HAKE-AVA (For Instance-level Action Detection from Videos)
+Coming soon.
+
+
 ## TODOS
 - [x] Image-level label results on HICO
 - [x] Image-level code and models
@@ -137,4 +141,3 @@ We also provided the image set and part-state labels of the extra 40 verb catego
 - [x] HAKE-A2V, pipeline, model
 - [x] HAKE-Action in PYTorch
 - [ ] HAKE-AVA data and code (video-based)
-- [ ] New Benchmark
