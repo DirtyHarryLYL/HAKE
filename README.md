@@ -3,7 +3,8 @@
 For more details please refer to HAKE website http://hake-mvig.cn.
 
 # HAKE project:
-- **HAKE-Image** (CVPR'18/20): [HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE#hake-hico-for-image-level-hoi-recognition), [HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE#hake-hico-det-for-instance-level-hoi-detection), [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-action-understanding-pre-training), [Extra-40-verbs](https://github.com/DirtyHarryLYL/HAKE#extra-40-verb-categories).
+- **HAKE-Image** (CVPR'18/20): Human body part state labels in images. [HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE#hake-hico-for-image-level-hoi-recognition), [HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE#hake-hico-det-for-instance-level-hoi-detection), [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-action-understanding-pre-training), [Extra-40-verbs](https://github.com/DirtyHarryLYL/HAKE#extra-40-verb-categories).
+- **HAKE-AVA**: Human body part state labels in videos from AVA dataset. [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA).
 - **[HAKE-A2V](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec)** (CVPR'20): Activity2Vec, a general activity feature extractor based on HAKE data, converting a human (box) to a fixed-size vector, PaSta and action scores.
 - **[HAKE-Action-TF](https://github.com/DirtyHarryLYL/HAKE-Action), [HAKE-Action-Torch](https://github.com/DirtyHarryLYL/HAKE-Action-Torch)** (CVPR'19/20, NeurIPS'20, TPAMI'21): SOTA action understanding methods and the corresponding HAKE-enhanced versions ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network))).
 - **HAKE-3D** (CVPR'20): 3D human-object representation for action understanding ([DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)).
@@ -129,7 +130,9 @@ We also provided the image set and part-state labels of the extra 40 verb catego
 
 
 ## HAKE-AVA (For Instance-level Action Detection from Videos)
-Coming soon.
+Fine-grained Spatio-Temporal Activity Understanding based on AVA videos. HAKE-AVA contains the human body part states (PaSta) annotations upon AVA and covers all the labeled human instances. PaSta (Part State) describes the action states of 10 human body parts, i.e., head, arms, hands, hip, legs, and feet.
+
+For details, please refer to this [repo](https://github.com/DirtyHarryLYL/HAKE-AVA).
 
 
 ## TODOS
@@ -140,4 +143,4 @@ Coming soon.
 - [x] HAKE-Large data
 - [x] HAKE-A2V, pipeline, model
 - [x] HAKE-Action in PYTorch
-- [ ] HAKE-AVA data and code (video-based)
+- [x] HAKE-AVA data
