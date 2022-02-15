@@ -12,7 +12,7 @@ For more details please refer to HAKE website http://hake-mvig.cn.
 - [**Halpe**](https://github.com/Fang-Haoshu/Halpe-FullBody): a joint project under [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) and [HAKE](http://hake-mvig.cn), full-body human keypoints (body, face, hand, 136 points) of 50,000 HOI images.
 - [**HOI Learning List**](https://github.com/DirtyHarryLYL/HOI-Learning-List): a list of recent HOI (Human-Object Interaction) papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everyone interested in HOI.
 
-#### **News**: (2022.02.14) We release the human body part state labels based on AVA: [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA).
+#### **News**: (2022.02.14) We release the human body part state labels based on AVA: [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA) and [HAKE 2.0 paper](https://arxiv.org/abs/2202.06851).
 
 (2021.10.06) Our extended version of [SymNet](https://github.com/DirtyHarryLYL/SymNet) is accepted by TPAMI! Paper and code are coming soon.
 
@@ -31,7 +31,7 @@ For more details please refer to HAKE website http://hake-mvig.cn.
 
 **The image-level and instance-level part state annotations upon HICO and HICO-DET are available!**
 
-- Paper is here: [PaStaNet](https://arxiv.org/abs/2004.00945).
+- Paper is here: [PaStaNet](https://arxiv.org/abs/2004.00945), [HAKE 2.0 paper](https://arxiv.org/abs/2202.06851).
 
 - Corresponding Code and model ([HAKE-Action](https://github.com/DirtyHarryLYL/HAKE-Action)): [Image-level](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Image-level-HAKE-Action) and [Instance-level](https://github.com/DirtyHarryLYL/HAKE-Action/tree/Instance-level-HAKE-Action).
 
@@ -39,7 +39,16 @@ For more details please refer to HAKE website http://hake-mvig.cn.
 - Image-level means that what Human-Object Interactions are included in an image, and the corrsponding task is the HOI recognition (image-level multi-label classification from [HICO](http://www-personal.umich.edu/~ywchao/hico/)). 
 - Instance-level means that what HOIs are performed by a person, and the task is HOI detection (instance-level multi-label detection from [HICO-DET](http://www-personal.umich.edu/~ywchao/publications/chao_wacv2018.pdf)).
 
-If you find HAKE useful, please cite our [paper](https://arxiv.org/abs/2004.00945):
+If you find HAKE useful, please cite our papers:
+
+    @misc{li2022hake,
+      title={HAKE: A Knowledge Engine Foundation for Human Activity Understanding}, 
+      author={Yong-Lu Li and Xinpeng Liu and Xiaoqian Wu and Yizhuo Li and Zuoyu Qiu and Liang Xu and Yue Xu and Hao-Shu Fang and Cewu Lu},
+      year={2022},
+      eprint={2202.06851},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+    }
 
     @inproceedings{li2020pastanet,
         title={PaStaNet: Toward Human Activity Knowledge Engine},
