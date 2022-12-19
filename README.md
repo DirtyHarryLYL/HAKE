@@ -7,13 +7,15 @@ For more details please refer to HAKE website http://hake-mvig.cn.
 - **[HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA)**: Human body part state labels in videos from AVA dataset.
 - **[CLIP-A2V](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/CLIP-Activity2Vec)**: CLIP-based part states & verb recognizer.
 - **[HAKE-A2V](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec)** (CVPR'20): Activity2Vec, a general activity feature extractor based on HAKE data, converting a human (box) to a fixed-size vector, PaSta and action scores.
-- **[HAKE-Action-TF](https://github.com/DirtyHarryLYL/HAKE-Action), [HAKE-Action-Torch](https://github.com/DirtyHarryLYL/HAKE-Action-Torch)** (CVPR'19/20/22, NeurIPS'20, TPAMI'21, ECCV'22): SOTA action understanding methods and the corresponding HAKE-enhanced versions ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network)), [IF](https://github.com/Foruck/Interactiveness-Field), [mPD](https://github.com/Foruck/OC-Immunity), [PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)).
+- **[HAKE-Action-TF](https://github.com/DirtyHarryLYL/HAKE-Action), [HAKE-Action-Torch](https://github.com/DirtyHarryLYL/HAKE-Action-Torch)** (CVPR'19/20/22, NeurIPS'20, TPAMI'21/22, ECCV'22): SOTA action understanding methods and the corresponding HAKE-enhanced versions ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network)), [IF](https://github.com/Foruck/Interactiveness-Field), [mPD](https://github.com/Foruck/OC-Immunity), [PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)).
 - **HAKE-3D** (CVPR'20): 3D human-object representation for action understanding ([DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)).
 - **HAKE-Object** (CVPR'20, TPAMI'21): object knowledge learner to advance action understanding ([SymNet](https://github.com/DirtyHarryLYL/SymNet)).
 - [**Halpe**](https://github.com/Fang-Haoshu/Halpe-FullBody): a joint project under [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) and [HAKE](http://hake-mvig.cn), full-body human keypoints (body, face, hand, 136 points) of 50,000 HOI images.
 - [**HOI Learning List**](https://github.com/DirtyHarryLYL/HOI-Learning-List): a list of recent HOI (Human-Object Interaction) papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everyone interested in HOI.
 
-#### **News**: (2022.11.19) We release the interactive object bounding boxes & classes in the interactions within AVA dataset (2.1 & 2.2)! [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA), [[Paper]](https://arxiv.org/abs/2211.07501). BTW, we also release a CLIP-based human body part states recognizer in [CLIP-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/CLIP-Activity2Vec)!
+#### **News**: (2022.12.19) HAKE is accepted by TPAMI!
+
+(2022.11.19) We release the interactive object bounding boxes & classes in the interactions within AVA dataset (2.1 & 2.2)! [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA), [[Paper]](https://arxiv.org/abs/2211.07501). BTW, we also release a CLIP-based human body part states recognizer in [CLIP-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/CLIP-Activity2Vec)!
 
 (2022.07.29) Our new work PartMap is released! [Paper](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness/blob/main), [Code](https://github.com/DirtyHarryLYL/HAKE-Action-Torch)
 
@@ -48,15 +50,12 @@ For more details please refer to HAKE website http://hake-mvig.cn.
 
 If you find HAKE useful, please cite our papers:
 
-    @misc{li2022hake,
-      title={HAKE: A Knowledge Engine Foundation for Human Activity Understanding}, 
-      author={Yong-Lu Li and Xinpeng Liu and Xiaoqian Wu and Yizhuo Li and Zuoyu Qiu and Liang Xu and Yue Xu and Hao-Shu Fang and Cewu Lu},
-      year={2022},
-      eprint={2202.06851},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+    @article{li2022hake,
+     title={HAKE: A Knowledge Engine Foundation for Human Activity Understanding},
+    author={Li, Yong-Lu and Liu, Xinpeng and Wu, Xiaoqian and Li, Yizhuo and Qiu, Zuoyu and Xu, Liang and Xu, Yue and Fang, Hao-Shu and Lu, Cewu},
+    journal={TPAMI},
+    year={2022}
     }
-
     @inproceedings{li2020pastanet,
         title={PaStaNet: Toward Human Activity Knowledge Engine},
         author={Li, Yong-Lu and Xu, Liang and Liu, Xinpeng and Huang, Xijie and Xu, Yue and Wang, Shiyi and Fang, Hao-Shu and Ma, Ze and Chen, Mingyang and Lu, Cewu},
