@@ -13,7 +13,7 @@ For more details please refer to HAKE website http://hake-mvig.cn.
 - [**Halpe**](https://github.com/Fang-Haoshu/Halpe-FullBody): a joint project under [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) and [HAKE](http://hake-mvig.cn), full-body human keypoints (body, face, hand, 136 points) of 50,000 HOI images.
 - [**HOI Learning List**](https://github.com/DirtyHarryLYL/HOI-Learning-List): a list of recent HOI (Human-Object Interaction) papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everyone interested in HOI.
 
-#### **News**: (2022.12.19) HAKE is accepted by TPAMI!
+#### **News**: (2022.12.19) HAKE 2.0 is accepted by TPAMI!
 
 (2022.11.19) We release the interactive object bounding boxes & classes in the interactions within AVA dataset (2.1 & 2.2)! [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA), [[Paper]](https://arxiv.org/abs/2211.07501). BTW, we also release a CLIP-based human body part states recognizer in [CLIP-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/CLIP-Activity2Vec)!
 
@@ -56,17 +56,20 @@ If you find HAKE useful, please cite our papers:
     journal={TPAMI},
     year={2022}
     }
+    
     @inproceedings{li2020pastanet,
         title={PaStaNet: Toward Human Activity Knowledge Engine},
         author={Li, Yong-Lu and Xu, Liang and Liu, Xinpeng and Huang, Xijie and Xu, Yue and Wang, Shiyi and Fang, Hao-Shu and Ma, Ze and Chen, Mingyang and Lu, Cewu},
         booktitle={CVPR},
         year={2020}
-        
+    }
+    
     @inproceedings{lu2018beyond,
         title={Beyond holistic object recognition: Enriching image understanding with part states},
         author={Lu, Cewu and Su, Hao and Li, Yonglu and Lu, Yongyi and Yi, Li and Tang, Chi-Keung and Guibas, Leonidas J},
         booktitle={CVPR},
         year={2018}
+    }
 
 ## HAKE-HICO (For Image-level HOI Recognition)
 
