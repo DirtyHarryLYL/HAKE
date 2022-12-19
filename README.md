@@ -50,11 +50,11 @@ For more details please refer to HAKE website http://hake-mvig.cn.
 
 If you find HAKE useful, please cite our papers:
 
-    @article{li2022hake,
+    @article{li2023hake,
      title={HAKE: A Knowledge Engine Foundation for Human Activity Understanding},
     author={Li, Yong-Lu and Liu, Xinpeng and Wu, Xiaoqian and Li, Yizhuo and Qiu, Zuoyu and Xu, Liang and Xu, Yue and Fang, Hao-Shu and Lu, Cewu},
     journal={TPAMI},
-    year={2022}
+    year={2023}
     }
     
     @inproceedings{li2020pastanet,
