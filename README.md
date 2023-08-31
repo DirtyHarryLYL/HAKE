@@ -7,6 +7,7 @@
 For more details please refer to HAKE website http://hake-mvig.cn.
 
 # HAKE project:
+- **HAKE-Reasoning** (TPAMI): Neural-Symbolic reasoning engine. [HAKE-Reasoning](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/HAKE-Reason)
 - **HAKE-Image** (CVPR'18/20): Human body part state labels in images. [HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE#hake-hico-for-image-level-hoi-recognition), [HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE#hake-hico-det-for-instance-level-hoi-detection), [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-action-understanding-pre-training), [Extra-40-verbs](https://github.com/DirtyHarryLYL/HAKE#extra-40-verb-categories).
 - **[HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA)**: Human body part state labels in videos from AVA dataset.
 - **[CLIP-A2V](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/CLIP-Activity2Vec)**: CLIP-based part states & verb recognizer.
